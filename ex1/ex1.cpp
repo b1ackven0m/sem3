@@ -13,7 +13,7 @@ int var(int array[],int size){
 		sumsqrtx += array[i] * array[i] ;
 		
 			}	
-		return sumsqrtx - (sumx/size);
+		return sumsqrtx - ((sumx*sumx)/size);
 	}
 
 	
